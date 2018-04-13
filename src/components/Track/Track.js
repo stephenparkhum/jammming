@@ -9,7 +9,7 @@ class Track extends React.Component {
                 <h3>Track Name</h3>
                 <p>Artist | Track Album</p>
               </div>
-              <a className="Track-action">Plus and Minus Sign here</a>
+              <a className="Track-action"></a>
             </div>
         )
     }
@@ -20,7 +20,7 @@ class Track extends React.Component {
         } else {
             return '+';
         }
-    }
+    };
 }
 
 export default Track;
